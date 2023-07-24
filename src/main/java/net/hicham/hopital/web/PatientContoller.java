@@ -45,5 +45,11 @@ public class PatientContoller {
 
     }
 
+    @GetMapping("/formPatients")
+    public String formPatient(){
+        return "formPatients";
+
+    }
+
 
 }
