@@ -38,7 +38,7 @@ public class HopitalApplication implements CommandLineRunner {
         patientRepository.save(Patient.builder()
                 .nom("Hugo")
                 .dateNaissance(new Date())
-                .score(27)
+                .score(120)
                 .malade(true)
                 .build());
         patientRepository.save(Patient.builder()
